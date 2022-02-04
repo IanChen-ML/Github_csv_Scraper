@@ -7,7 +7,7 @@ How to use it?
 
 2. Assign the path you want to store all the CSV files to target_path.
 
-3. Assign the link of raw data that does not include the file name(i.e. XXX.csv) to content.
+3. Assign the link of raw data that does not include the file name(XXX.csv) to content.
 
 4. Run the code and you'll find the file is in your target directory
 
@@ -19,7 +19,7 @@ You simply assign this address to my_url, and then assign the path of your targe
 
 After that, open whatever file in the webpage and click "raw" (to see the raw file).
 
-You'll see that the address become different
+You'll see that the address becomes different
 (https://raw.githubusercontent.com/jakevdp/PythonDataScienceHandbook/master/notebooks/data/BicycleWeather.csv).
 
-Copy the address of that page exclude the file name (i.e. https://raw.githubusercontent.com/jakevdp/PythonDataScienceHandbook/master/notebooks/data/) and assign it to content.
+Copy the address of that page and exclude the file name (i.e. https://raw.githubusercontent.com/jakevdp/PythonDataScienceHandbook/master/notebooks/data/) and assign it to content.
