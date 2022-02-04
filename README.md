@@ -9,7 +9,7 @@ How to use it?
 
 3. Assign the link of raw data that does not include the file name(XXX.csv) to content.
 
-4. Run the code and you'll find the file is in your target directory
+4. Run the code and you'll find the files are in your target directory
 
 Let's take a look at an example:
 
