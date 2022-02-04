@@ -1,15 +1,15 @@
 # Github_csv_Scraper
-This python file is for scraping csv file from Github.
+This python file is for scraping csv files from Github.
 
 How to use it?
 
-There are three variables that you need to assign your own value, they are 
+There are three variables that you need to assign your own values, they are 
 my_url, target_path and content.
 
 
 1. Assign the address of the page that stores all the csv to my_url.
 
-2. Assign the path you want to store all the CSV files to target_path.
+2. Assign the path you want to store the CSV files to target_path.
 
 3. Assign the link of raw data that does not include the file name(XXX.csv) to content.
 
@@ -26,4 +26,4 @@ After that, open whatever file in the webpage and click "raw" (to see the raw fi
 You'll see that the address becomes different
 (https://raw.githubusercontent.com/jakevdp/PythonDataScienceHandbook/master/notebooks/data/BicycleWeather.csv).
 
-Copy the address of that page and exclude the file name (i.e. https://raw.githubusercontent.com/jakevdp/PythonDataScienceHandbook/master/notebooks/data/) and assign it to content.
+Copy the address of that page, exclude the file name (i.e. https://raw.githubusercontent.com/jakevdp/PythonDataScienceHandbook/master/notebooks/data/), and  assign it to content.
