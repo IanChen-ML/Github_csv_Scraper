@@ -4,7 +4,8 @@ import pandas as pd
 import os
 
 my_url = "https://github.com/jakevdp/PythonDataScienceHandbook/tree/master/notebooks/data"
-target_path = "/Users/chenyian/Documents/scrape_path"
+target_path = " " # <- pathname of the place where you want to store your data
+content = "https://raw.githubusercontent.com/jakevdp/PythonDataScienceHandbook/master/notebooks/data/"
 #opening up the connection
 uClient = uReq(my_url)
 page_html = uClient.read()
@@ -22,7 +23,6 @@ for i in range(1, len(fileLine)):
     fileName = fileLine[i].a["title"]
     ls.append(fileName)
 
-content = "https://raw.githubusercontent.com/jakevdp/PythonDataScienceHandbook/master/notebooks/data/"
 for j in ls:
     file_link = content + j
     df = pd.read_csv(file_link)
