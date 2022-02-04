@@ -3,7 +3,7 @@ This python file is for scraping csv file from Github.
 
 How to use it?
 
-There are three variables that you need to assign your own value, there are 
+There are three variables that you need to assign your own value, they are 
 my_url, target_path, and content.
 
 
