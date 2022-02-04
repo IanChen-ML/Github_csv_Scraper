@@ -1,5 +1,5 @@
 # Github_csv_Scraper
-This python is for scraping csv file from Github.
+This python file is for scraping csv file from Github.
 
 How to use it?
 
