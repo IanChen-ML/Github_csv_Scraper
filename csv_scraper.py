@@ -4,7 +4,7 @@ import pandas as pd
 import os
 
 my_url = "https://github.com/jakevdp/PythonDataScienceHandbook/tree/master/notebooks/data"
-target_path = " " # <- pathname of the place where you want to store your data
+target_path = " " # <- pathname of the place that you want to store your data
 content = "https://raw.githubusercontent.com/jakevdp/PythonDataScienceHandbook/master/notebooks/data/"
 #opening up the connection
 uClient = uReq(my_url)
