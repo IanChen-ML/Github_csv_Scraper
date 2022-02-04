@@ -4,7 +4,7 @@ This python file is for scraping csv file from Github.
 How to use it?
 
 There are three variables that you need to assign your own value, they are 
-my_url, target_path, and content.
+my_url, target_path and content.
 
 
 1. Assign the address of the page that stores all the csv to my_url.
